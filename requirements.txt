@@ -1,9 +1,7 @@
+streamlit
 torch
 torchvision
-opencv-python
 numpy
-matplotlib
-albumentations
+pillow
 segmentation-models-pytorch
-scikit-learn
-jupyter
+opencv-python-headless
