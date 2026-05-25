@@ -302,7 +302,7 @@ if uploaded_file is not None:
         st.image(
             original,
             caption="🧠 Original MRI",
-            use_container_width=True
+            use_column_width=True
         )
 
     with col2:
@@ -310,7 +310,7 @@ if uploaded_file is not None:
         st.image(
             mask,
             caption="📍 Predicted Tumor Mask",
-            use_container_width=True
+            use_column_width=True
         )
 
     with col3:
@@ -318,7 +318,7 @@ if uploaded_file is not None:
         st.image(
             overlay,
             caption="🔴 Tumor Overlay",
-            use_container_width=True
+            use_column_width=True
         )
 
     st.markdown("---")
