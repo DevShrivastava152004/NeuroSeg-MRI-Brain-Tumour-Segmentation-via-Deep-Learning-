@@ -1,129 +1,205 @@
-# 🧠 Brain Tumor Segmentation using U-Net
+---
+title: AI MRI Tumor Analysis
+emoji: 🧠
+colorFrom: blue
+colorTo: red
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+---
 
-## 📌 Project Overview
+# 🧠 AI-Powered Brain MRI Tumor Analysis Platform
 
-This project uses Deep Learning and Computer Vision techniques to perform Brain Tumor Segmentation on MRI scans using the U-Net architecture.
+A Deep Learning-based Medical Image Segmentation system that detects and segments brain tumor regions from MRI scans using the U-Net architecture and Computer Vision techniques.
 
-The model is trained to identify and segment tumor regions from MRI images, helping improve medical image analysis and assisting in early diagnosis workflows.
+The project is deployed as a live AI web application using Streamlit and HuggingFace Spaces.
 
 ---
 
-## 🚀 Features
+# 🚀 Live Demo
 
-- MRI Brain Tumor Segmentation
-- U-Net Architecture with ResNet34 Encoder
+🌐 Live Application:  
+https://devspace152004-ai-mri-tumor-analysis.hf.space
+
+---
+
+# 📌 Project Overview
+
+This project focuses on Brain Tumor Segmentation using MRI images to identify tumor regions accurately through semantic segmentation.
+
+The system uses a U-Net model with a ResNet34 encoder trained on MRI datasets to generate tumor masks and overlay visualizations in real-time.
+
+The application assists in:
+- Medical image analysis
+- Tumor region visualization
+- Deep Learning-based segmentation workflows
+- AI-powered diagnostic support systems
+
+---
+
+# ✨ Features
+
+✅ MRI Brain Tumor Segmentation  
+✅ U-Net + ResNet34 Architecture  
+✅ Real-time Tumor Mask Prediction  
+✅ Tumor Overlay Visualization  
+✅ Confidence Score Display  
+✅ Dice Loss + BCE Loss Optimization  
+✅ Streamlit-based Interactive Web App  
+✅ Live Deployment on HuggingFace Spaces  
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Deep Learning | PyTorch |
+| Segmentation | U-Net |
+| Computer Vision | OpenCV |
+| Data Augmentation | Albumentations |
+| Deployment | Streamlit + HuggingFace Spaces |
+| Visualization | Matplotlib |
+| Model Library | segmentation_models_pytorch |
+
+---
+
+# 🧠 Model Architecture
+
+- U-Net Segmentation Architecture
+- ResNet34 Encoder Backbone
+- Binary Semantic Segmentation
 - Dice Loss + BCE Loss
-- Data Augmentation using Albumentations
-- PyTorch-based Training Pipeline
-- Tumor Mask Prediction
-- Overlay Visualization
-- Dice Score Evaluation
+- Pixel-wise Tumor Prediction
 
 ---
 
-## 🛠️ Technologies Used
+# 📊 Model Performance
 
-- Python
-- PyTorch
-- OpenCV
-- NumPy
-- Albumentations
-- Segmentation Models PyTorch
-- Matplotlib
-- Google Colab
-
----
-
-## 🧠 Model Architecture
-
-- U-Net
-- ResNet34 Encoder
-- Binary Segmentation
-- Attention-based Feature Learning
-
----
-
-## 📊 Model Performance
-
-| Metric | Score |
-|--------|--------|
+| Metric | Performance |
+|---|---|
 | Dice Score | 87% |
-| Loss Function | Dice + BCE Loss |
+| Loss Function | Dice Loss + BCE Loss |
+| Segmentation Type | Binary Segmentation |
 
 ---
 
-## 📂 Dataset Used
+# 📂 Dataset Used
 
-- LGG MRI Segmentation Dataset
-- BraTS Dataset (for experimentation)
+### LGG MRI Segmentation Dataset
+Used for training and validation of tumor segmentation masks.
 
-Dataset contains MRI brain scans and corresponding tumor masks for supervised segmentation training.
+### BraTS Dataset
+Used for experimentation and evaluation purposes.
+
+The datasets contain:
+- Brain MRI images
+- Ground truth tumor masks
+- Segmentation annotations
 
 ---
 
-## 🔄 Project Workflow
+# 🔄 AI Workflow Pipeline
 
 ```text
-MRI Image
-    ↓
-Preprocessing
-    ↓
+MRI Scan
+   ↓
+Image Preprocessing
+   ↓
 Data Augmentation
-    ↓
-U-Net Segmentation
-    ↓
-Tumor Mask Prediction
-    ↓
+   ↓
+U-Net Deep Learning Model
+   ↓
+Tumor Segmentation
+   ↓
+Mask Generation
+   ↓
 Overlay Visualization
 ```
 
 ---
 
-## 🖼️ Sample Results
+# 🖼️ Sample Outputs
 
-(Add screenshots here later)
+## Original MRI
+(Add screenshot)
 
-- Original MRI
-- Ground Truth Mask
-- Predicted Mask
-- Overlay Visualization
+## Predicted Tumor Mask
+(Add screenshot)
+
+## Tumor Overlay Visualization
+(Add screenshot)
 
 ---
 
-## ⚙️ How to Run
+# ⚙️ Local Setup & Installation
 
-### Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Brain_Tumour_Segmentation.git
+git clone https://github.com/DevShrivastava152004/Brain_Tumour_Segmentation.git
 ```
 
-### Install Dependencies
+## Move into Project Directory
+
+```bash
+cd Brain_Tumour_Segmentation
+```
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Notebook
+## Run Application
 
-Open:
-
-```text
-Brain_tumour_Segmentation.ipynb
+```bash
+streamlit run app.py
 ```
 
 ---
 
-## 📈 Future Improvements
+# 🌐 Deployment
 
-- Attention U-Net
-- 3D Medical Segmentation
-- Better Encoder Architectures
-- Deployment Interface
-- Real-time MRI Analysis
+The project is deployed publicly using:
+
+- Streamlit
+- HuggingFace Spaces
+
+Deployment includes:
+- AI inference pipeline
+- MRI upload support
+- Real-time tumor segmentation
+- Interactive visualization interface
 
 ---
 
-## 👨‍💻 Author
+# 📈 Future Scope
 
-Dev Shrivastava
+- Attention U-Net Integration
+- 3D MRI Segmentation
+- Multi-class Tumor Segmentation
+- Improved Medical Visualization
+- GPU-based Inference Optimization
+- Clinical Workflow Integration
+
+---
+
+# 👨‍💻 Author
+
+## Dev Shrivastava
+
+AI/ML Engineering Student focused on:
+- Deep Learning
+- Computer Vision
+- Medical Imaging
+- AI Product Development
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider starring the repository.
