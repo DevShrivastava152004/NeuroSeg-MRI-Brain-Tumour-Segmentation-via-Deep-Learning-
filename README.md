@@ -121,17 +121,25 @@ Overlay Visualization
 
 ---
 
+
+
 # 🖼️ Sample Outputs
 
-## Original MRI
-(Add screenshot)
+## 🧠 Original MRI
 
-## Predicted Tumor Mask
-(Add screenshot)
+![original_mri](sample_outputs/original_mri.jpg)
 
-## Tumor Overlay Visualization
-(Add screenshot)
+---
 
+## 📍 Predicted Tumor Mask
+
+![predicted_mask](sample_outputs/predicted_mask.jpg)
+
+---
+
+## 🔴 Tumor Overlay Visualization
+
+![overlay_result](sample_outputs/overlay_result.jpg)
 ---
 
 # ⚙️ Local Setup & Installation
