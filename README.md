@@ -125,6 +125,12 @@ Overlay Visualization
 
 # 🖼️ Sample Outputs
 
+## 🧠 Full Web Application
+
+![app UI](sample_outputs/app_ui.png)
+
+---
+
 ## 🧠 Original MRI
 
 ![original_mri](sample_outputs/original_mri.jpg)
