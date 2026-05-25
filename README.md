@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# 🧠 AI-Powered Brain MRI Tumor Analysis Platform
+# 🧠 NeuroSeg — MRI Brain Tumour Segmentation via Deep Learning
 
 A Deep Learning-based Medical Image Segmentation system that detects and segments brain tumor regions from MRI scans using the U-Net architecture and Computer Vision techniques.
 
