@@ -45,7 +45,7 @@ h1, h2, h3 {
 # TITLE SECTION
 # =========================================================
 
-st.title("🧠 AI MRI Tumor Analysis Platform")
+st.title("🧠 NEUROSEG - AI MRI Tumor Analysis Platform")
 
 st.markdown("""
 Upload a **Brain MRI Scan** and the AI model will analyze
