@@ -9,7 +9,7 @@ from PIL import Image
 # =========================================================
 
 st.set_page_config(
-    page_title="AI MRI Tumor Analysis Platform",
+    page_title="NEUROSEG - AI MRI Tumor Analysis Platform",
     page_icon="🧠",
     layout="wide"
 )
