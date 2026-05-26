@@ -9,7 +9,7 @@ from PIL import Image
 # =========================================================
 
 st.set_page_config(
-    page_title="NEUROSEG - AI MRI Tumor Analysis Platform",
+    page_title="NeuroSeg",
     page_icon="🧠",
     layout="wide"
 )
@@ -45,7 +45,11 @@ h1, h2, h3 {
 # TITLE SECTION
 # =========================================================
 
-st.title("🧠 NEUROSEG - AI MRI Tumor Analysis Platform")
+st.title("🧠 NeuroSeg")
+
+st.markdown(
+    "### MRI Brain Tumor Segmentation via Deep Learning"
+)
 
 st.markdown("""
 Upload a **Brain MRI Scan** and the AI model will analyze
@@ -62,14 +66,15 @@ st.sidebar.title("📌 About")
 
 st.sidebar.info(
     """
-This project uses:
+NeuroSeg is an AI-powered medical imaging platform
+that performs MRI Brain Tumor Segmentation using
+Deep Learning and Computer Vision techniques.
 
 ✅ U-Net Architecture  
-✅ Deep Learning  
+✅ PyTorch  
 ✅ Computer Vision  
-✅ MRI Image Segmentation  
-
-to identify tumor regions from MRI scans.
+✅ MRI Segmentation  
+✅ Real-time Prediction
 """
 )
 
